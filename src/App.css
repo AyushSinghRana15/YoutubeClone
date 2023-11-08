@@ -1,0 +1,231 @@
+.main-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+.yt-logo{height: 30px;
+  cursor: pointer;
+  
+  
+}
+.search-container{
+  display: flex;
+  align-items: center;
+}
+
+.searchBar {
+  height: 30px;
+  width: 600px;
+  border-top-left-radius: 25px;
+border-bottom-left-radius:25px ;
+margin: 5px;
+padding-left: 2%;
+border: 1px solid #666;}
+
+.searchbutton {
+  height: 34px;
+  width: 90px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #303131;
+  margin: -150px;
+  border: 1px solid #666;
+  
+
+}
+
+.signInButton {
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+  
+}
+
+
+
+.page {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 20%;
+  
+}
+
+.sidebar button {
+  display: block;
+  height: 40px;
+  width: 98%;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  margin: 1px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+
+.card {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card-text p {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.thumbnail {
+  height: 175px;
+  border-radius: 10px;
+}
+
+.channelImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+
+.VideoPage {
+  display: flex;
+}
+
+.VideoItem {
+  width: 65%;
+}
+
+.suggestionBar {
+  width: 30%;
+  margin: 20px;
+}
+
+.iframe-videos {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 2%;
+  margin: 10px;
+  
+}
+
+
+.description {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.description-text {
+  margin-left: 20px;
+  background-color: rgb(158, 157, 157);
+  border-radius: 10px;
+  padding: 5px;
+}
+.title {
+  font-weight: bold;
+}
+
+.faded {
+  font-size: 75%;
+  color: #666;
+}
+
+.subscribe-button {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  margin: 10px;
+}
+.pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  width: 80px;
+  border-radius: 25px;
+  border: none;
+  margin: 5px;
+}
+
+.download-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  margin: 5px;
+}
+
+.mixed-group {
+  display: flex;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.suggestion-card {
+  display: flex;
+}
+
+.suggestion-thumbnail {
+  height: 100px;
+  margin: 10px;
+  border-radius: 5%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
