@@ -20,7 +20,7 @@ const SideBar = () => {
       </button>
       <button>
         <FaRegListAlt className="icon" />
-        Subscriptions
+        Subscription
       </button>
       <button>
         <FaUser className="icon" />

@@ -8,7 +8,7 @@ const LoginPage = () => {
 
   const handleLogin = () => {
     if (email === "admin" && password === "admin") {
-      // Set a token for login in localStorage (you can use a more secure method for real applications)
+     
       localStorage.setItem("token", "your_generated_token");
       navigate("/");
       console.log("Login successful! Token set.");
